@@ -59,6 +59,8 @@ Try it without API keys:
 python -m triage samples/alerts --offline
 ```
 
+![Offline run: unverified indicators default to investigate](docs/images/offline-run.png)
+
 For live enrichment, copy `.env.example` to `.env` and add your free [VirusTotal](https://www.virustotal.com) and [AbuseIPDB](https://www.abuseipdb.com) keys, then:
 
 ```cmd
@@ -68,6 +70,8 @@ python -m triage samples/alerts
 Point it at your own alerts with a file or folder path. Options: `--out` (report folder), `--config` (scoring file), `--offline`.
 
 ## Example output
+
+![Live run with VirusTotal and AbuseIPDB enrichment](docs/images/live-run.png)
 
 > **TODO (you):** paste a section of a real `triage_report.md` from a live run here.
 
@@ -79,6 +83,8 @@ ruff check .
 ```
 
 Tests never call the real APIs. Each client accepts an injected HTTP session, and the tests pass a fake one that returns saved responses from `tests/fixtures/`. That keeps tests fast, free, and runnable in CI without secrets. GitHub Actions runs linting and the full suite on Python 3.12 and 3.14 for every push and pull request.
+
+![All 48 tests passing on Windows with Python 3.14](docs/images/tests-passing.png)
 
 ## Project structure
 
