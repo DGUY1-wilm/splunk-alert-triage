@@ -1,6 +1,6 @@
 # splunk-alert-triage
 
-![CI](https://github.com/YOUR-USERNAME/splunk-alert-triage/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/DGUY1-wilm/splunk-alert-triage/actions/workflows/ci.yml/badge.svg)
 
 A Python tool that automates first-pass SOC triage for Splunk alerts. It pulls indicators of compromise out of each alert, checks them against VirusTotal and AbuseIPDB, and assigns an explainable verdict: **escalate**, **investigate**, or **likely benign**.
 
