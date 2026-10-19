@@ -1,0 +1,24 @@
+# Secrets: never commit API keys
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+
+# Generated reports (regenerate any time with the CLI)
+reports/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
