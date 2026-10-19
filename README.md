@@ -4,7 +4,6 @@
 
 A Python tool that automates first-pass SOC triage for Splunk alerts. It pulls indicators of compromise out of each alert, checks them against VirusTotal and AbuseIPDB, and assigns an explainable verdict: **escalate**, **investigate**, or **likely benign**.
 
-> **TODO (you):** One or two sentences in your own words on why you built this, e.g. what you noticed doing manual triage in your Splunk detection lab.
 
 ## How it works
 
@@ -73,7 +72,6 @@ Point it at your own alerts with a file or folder path. Options: `--out` (report
 
 ![Live run with VirusTotal and AbuseIPDB enrichment](docs/images/live-run.png)
 
-> **TODO (you):** paste a section of a real `triage_report.md` from a live run here.
 
 ## Testing
 
@@ -119,7 +117,7 @@ tests/                pytest suite and mocked API responses
 
 Built with assistance from [Claude](https://claude.ai) (Anthropic).
 
-> **TODO (you):** adjust this to describe what you changed.
+
 
 ## License
 
