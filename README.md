@@ -117,7 +117,7 @@ tests/                pytest suite and mocked API responses
 
 ## Credits
 
-Built with assistance from [Claude](https://claude.ai) (Anthropic). I reviewed, tested, and modified all code.
+Built with assistance from [Claude](https://claude.ai) (Anthropic).
 
 > **TODO (you):** adjust this to describe what you changed.
 
