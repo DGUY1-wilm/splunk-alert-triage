@@ -1,0 +1,13 @@
+{
+  "_comment": "SYNTHETIC sample. Destination is Google public DNS, so this should score as likely benign.",
+  "search_name": "Outbound Connection to Rare Destination",
+  "sid": "scheduler__admin__search__RMD5rare04_at_1760903000_104",
+  "result": {
+    "_time": "2026-10-19T11:45:13.000-04:00",
+    "host": "WKS-008",
+    "user": "bwilson",
+    "src_ip": "10.10.20.8",
+    "dest_ip": "8.8.8.8",
+    "dest_port": "53"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_comment": "SYNTHETIC sample in Splunk webhook format. Replace with alerts exported from your Splunk lab.",
+  "search_name": "Brute Force Followed by Successful Login",
+  "sid": "scheduler__admin__search__RMD5brute01_at_1760900000_101",
+  "owner": "admin",
+  "app": "search",
+  "results_link": "https://splunk.lab.local:8000/app/search/@go?sid=scheduler__admin__search__RMD5brute01_at_1760900000_101",
+  "result": {
+    "_time": "2026-10-19T08:14:22.000-04:00",
+    "dest_host": "DC01",
+    "user": "CORP\\administrator",
+    "src_ip": "185.220.101.47",
+    "failed_count": "47",
+    "success_count": "1",
+    "EventCode": ["4625", "4624"],
+    "_raw": "47 failed logons (4625) then 1 successful logon (4624) for CORP\\administrator from 185.220.101.47"
+  }
+}

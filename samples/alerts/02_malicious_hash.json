@@ -1,0 +1,13 @@
+{
+  "_comment": "SYNTHETIC sample. The hash is the EICAR antivirus test file: harmless, but flagged by most engines.",
+  "search_name": "Suspicious Process Execution from User Downloads",
+  "sid": "scheduler__admin__search__RMD5proc02_at_1760901000_102",
+  "result": {
+    "_time": "2026-10-19T09:02:51.000-04:00",
+    "host": "WKS-042",
+    "user": "jdoe",
+    "process_path": "C:\\Users\\jdoe\\Downloads\\invoice_viewer.exe",
+    "file_hash": "275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f",
+    "parent_process": "explorer.exe"
+  }
+}

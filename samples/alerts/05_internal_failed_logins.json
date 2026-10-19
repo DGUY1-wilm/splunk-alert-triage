@@ -1,0 +1,12 @@
+{
+  "_comment": "SYNTHETIC sample. Internal-only activity: no public indicators to enrich, so it needs a human.",
+  "search_name": "Multiple Failed Logins from Internal Host",
+  "sid": "scheduler__admin__search__RMD5fail05_at_1760904000_105",
+  "result": {
+    "_time": "2026-10-19T13:20:44.000-04:00",
+    "dest_host": "FS01",
+    "user": "svc_backup",
+    "src_ip": "10.10.30.25",
+    "failed_count": "12"
+  }
+}

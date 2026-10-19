@@ -1,0 +1,10 @@
+{
+  "data": {
+    "id": "8.8.8.8",
+    "type": "ip_address",
+    "attributes": {
+      "reputation": 520,
+      "last_analysis_stats": {"malicious": 0, "suspicious": 0, "harmless": 68, "undetected": 26, "timeout": 0}
+    }
+  }
+}

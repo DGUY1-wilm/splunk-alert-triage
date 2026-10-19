@@ -1,0 +1,13 @@
+{
+  "data": {
+    "ipAddress": "185.220.101.47",
+    "isPublic": true,
+    "isWhitelisted": false,
+    "abuseConfidenceScore": 100,
+    "countryCode": "DE",
+    "usageType": "Reserved",
+    "isp": "Example Hosting",
+    "totalReports": 3412,
+    "isTor": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "data": {
+    "id": "185.220.101.47",
+    "type": "ip_address",
+    "attributes": {
+      "reputation": -45,
+      "last_analysis_stats": {"malicious": 12, "suspicious": 2, "harmless": 55, "undetected": 25, "timeout": 0}
+    }
+  }
+}

@@ -1,0 +1,27 @@
+# Scoring rules for alert triage.
+# Change these numbers to tune the verdicts; no code changes needed.
+
+virustotal:
+  # Number of antivirus engines that flag an indicator as malicious.
+  high_malicious: 5     # this many or more -> high severity
+  medium_malicious: 1   # at least this many -> medium severity
+  # Seconds to wait between VirusTotal requests.
+  # The free tier allows 4 requests per minute, so 15 keeps you under the limit.
+  min_interval_seconds: 15
+
+abuseipdb:
+  # AbuseIPDB abuse confidence score, 0 to 100.
+  high_confidence: 75
+  medium_confidence: 25
+
+context:
+  # If an alert would be "investigate" but involves one of these accounts or hosts,
+  # it is raised to "escalate". Matching is case-insensitive, and domain prefixes
+  # like CORP\administrator or administrator@corp.local are stripped first.
+  privileged_accounts:
+    - administrator
+    - admin
+    - root
+  critical_hosts:
+    - dc01
+    - dc02

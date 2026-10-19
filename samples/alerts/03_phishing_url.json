@@ -1,0 +1,13 @@
+{
+  "_comment": "SYNTHETIC sample. The domain is invented, and the URL is defanged the way it often appears in mail gateway logs.",
+  "search_name": "Suspicious URL Clicked in Email",
+  "sid": "scheduler__admin__search__RMD5url03_at_1760902000_103",
+  "result": {
+    "_time": "2026-10-19T10:31:07.000-04:00",
+    "host": "WKS-017",
+    "user": "asmith@corp.local",
+    "sender": "it-support@corp-helpdesk-notice.net",
+    "subject": "Action required: password expires today",
+    "url": "hxxps://login-micros0ft-verify[.]com/auth?session=8812"
+  }
+}
